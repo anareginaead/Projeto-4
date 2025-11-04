@@ -1,0 +1,6 @@
+<script>
+  const toggle = document.querySelector("#toggle-contrast");
+  toggle.addEventListener("click", () => {
+    document.body.classList.toggle("high-contrast");
+  });
+</script>
