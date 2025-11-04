@@ -1,0 +1,19 @@
+
+---
+
+## ♿ Acessibilidade (WCAG 2.1 — Nível AA)
+- Navegação 100% por teclado (`Tab`, `Enter`, `Shift+Tab`);
+- Textos com contraste mínimo **4.5:1**;
+- Tags ARIA e landmarks semânticos (`<header>`, `<main>`, `<nav>`, `<footer>`);
+- Suporte para leitores de tela;
+- Modo **alto contraste** e **modo escuro** com troca por botão acessível.
+
+---
+
+## 🌗 Ativação do Modo Alto Contraste
+
+Inclua este botão no cabeçalho (index.html):
+```html
+<button id="toggle-contrast" aria-label="Ativar/Desativar alto contraste">
+  ♿ Alto Contraste
+</button>
