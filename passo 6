@@ -1,0 +1,7 @@
+body.high-contrast {
+  background: #000 !important;
+  color: #fff !important;
+}
+a, button {
+  color: #ff0 !important;
+}
